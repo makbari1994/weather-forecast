@@ -19,7 +19,6 @@ export const getLocation = async (): Promise<ILocation> => {
         location.lng = locationRes.data.geoplugin_longitude;
     }
 
-
     return {
         lat: location.lat,
         lng: location.lng
